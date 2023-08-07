@@ -1,16 +1,20 @@
 
-'SMART' devices from fitness bands to pacemakers-have become ubiquitous in modern life. 
+IoT devices from toasters to pacemakers have become ubiquitous in modern life.
 
+This research sought to answer what **implicit** security tradeoffs consumers make purchasing <i> inexpensive </i> medical IoT products.
 
 
    
 
 
 ![image](https://github.com/actuator/pops/assets/78701239/58f2416c-17f0-408b-8254-1705b3fc0075)
-This research sought to answer what **implicit** security tradeoffs consumers make purchasing inexpensive medical IoT products.
 
 
+A vulnerability has been discovered with the Pops Rebel Bluetooth Glucose Monitoring System, that allows for the unencrypted transmission of personally identifiable information (PII) medical information such as: glucose mg/dl concentration levels between the Glucose Monitoring System & a mobile device running Pops Rebel Ver: 5.0 for Android.     
 
+*
+
+The static code analysis depicted below compares the Glucose Monitoring Systems Android app Java source code with a corresponding WireShark BLE packet capture. 
 
 
 
