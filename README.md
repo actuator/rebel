@@ -1,4 +1,16 @@
+
+'SMART' devices from fitness bands to pacemakers-have become ubiquitous in modern life. 
+
+
+
+   
+
+
 ![image](https://github.com/actuator/pops/assets/78701239/58f2416c-17f0-408b-8254-1705b3fc0075)
+This research sought to answer what **implicit** security tradeoffs consumers make purchasing inexpensive medical IoT products.
+
+
+
 
 
 
