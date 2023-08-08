@@ -1,5 +1,5 @@
 
-
+Status: FDA Approved
    
 An unauthenticated remote attacker in BLE proximity can remotely aggregate unencrypted diabetic data from the <i>Pops Rebel Bluetooth Glucose Monitoring System</i> for users of Pops Rebel version 5.0 for Android.
 
