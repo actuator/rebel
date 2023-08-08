@@ -3,7 +3,7 @@
    
 An unauthenticated remote attacker in BLE proximity can remotely aggregate unencrypted diabetic data from the <i>Pops Rebel Bluetooth Glucose Monitoring System</i> for users of Pops Rebel version 5.0 for Android.
 
-**CWE-311: Missing Encryption of Sensitive Data**
+**CWE-319: Cleartext Transmission of Sensitive Information**
 
 ![image](https://github.com/actuator/pops/assets/78701239/58f2416c-17f0-408b-8254-1705b3fc0075)
 
