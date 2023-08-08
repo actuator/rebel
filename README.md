@@ -7,7 +7,9 @@ An unauthenticated remote attacker in BLE proximity can remotely aggregate unenc
 
 ![image](https://github.com/actuator/pops/assets/78701239/58f2416c-17f0-408b-8254-1705b3fc0075)
 
-<code>The code analysis depicted correlates the devices Android app source code-with a WireShark BLE packet data capture.</code>![m1sc](https://github.com/actuator/pops/assets/78701239/b6660541-cf16-4aa5-ba39-f3d8fcb32369)
+<code>The Static Code analysis below depicts the correlation between app source code & an actual BLE capture in WireShark.</code>
+
+![m1sc](https://github.com/actuator/pops/assets/78701239/b6660541-cf16-4aa5-ba39-f3d8fcb32369)
 
 
 
