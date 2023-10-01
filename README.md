@@ -1,27 +1,29 @@
+# Vulnerability Report: Pops Rebel Bluetooth Glucose Monitoring System
 
-Status: FDA cleared
-   
-An unauthenticated remote attacker in BLE proximity can remotely aggregate unencrypted diabetic data from the <i>Pops Rebel Bluetooth Glucose Monitoring System</i> for users of Pops Rebel version 5.0 for Android.
+**Status:** FDA cleared
 
-<code>Vulnerability: CWE-319: Cleartext Transmission of Sensitive Information.</code>
+## Vulnerability Details
 
-![image](https://github.com/actuator/pops/assets/78701239/58f2416c-17f0-408b-8254-1705b3fc0075)
+An unauthenticated remote attacker in BLE proximity can remotely aggregate unencrypted diabetic data from the **Pops Rebel Bluetooth Glucose Monitoring System** for users of Pops Rebel version 5.0 for Android. This vulnerability is classified as [CWE-319: Cleartext Transmission of Sensitive Information](https://cwe.mitre.org/data/definitions/319.html).
 
-<code>The Static Code analysis below depicts the correlation between app source code & an actual BLE capture in WireShark.</code>
+![Pops Rebel Glucose Monitoring System](https://github.com/actuator/pops/assets/78701239/58f2416c-17f0-408b-8254-1705b3fc0075)
 
-![m1sc](https://github.com/actuator/pops/assets/78701239/b6660541-cf16-4aa5-ba39-f3d8fcb32369)
+### Vulnerability Evidence
 
-
-
-
-
-<code>This issue was reported to the vendor <i>POPS! Diabetes Care Inc.</i> on 4/2023.</code>
+Here are some images and details related to the vulnerability:
 
 
 
-![bettercap](https://github.com/actuator/pops/assets/78701239/7f57259b-b1ae-49c8-94e3-0f6cb6f0b002)
+The static code analysis below depicts the correlation between the app source code and an actual BLE capture in Wireshark:
 
+![Static Code Analysis](https://github.com/actuator/pops/assets/78701239/b6660541-cf16-4aa5-ba39-f3d8fcb32369)
 
-<code>Discover: Edward Warren</code>
+This issue was reported to the vendor, **POPS! Diabetes Care Inc.**, in April 2023.
 
-* https://cwe.mitre.org/data/definitions/319.html
+![Vendor Notification](https://github.com/actuator/pops/assets/78701239/7f57259b-b1ae-49c8-94e3-0f6cb6f0b002)
+
+### Discoverer
+
+The vulnerability was discovered by **Edward Warren**.
+
+---
